@@ -1,0 +1,12 @@
+{
+ "cell": [128, 112],
+ "foot": [64, 102],
+ "animations": [
+  {"name": "idle", "row": 0, "frames": 2, "fps": 3.0, "loop": true},
+  {"name": "walk", "row": 1, "frames": 4, "fps": 7.0, "loop": true},
+  {"name": "punch", "row": 2, "frames": 3, "fps": 10.0, "loop": false},
+  {"name": "slam", "row": 3, "frames": 3, "fps": 8.0, "loop": false},
+  {"name": "hurt", "row": 4, "frames": 1, "fps": 8.0, "loop": false},
+  {"name": "death", "row": 5, "frames": 3, "fps": 6.0, "loop": false}
+ ]
+}

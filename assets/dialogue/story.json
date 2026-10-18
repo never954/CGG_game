@@ -1,0 +1,461 @@
+{
+  "speakers": {
+    "iko": "Iko",
+    "koax": "Old Koax",
+    "king": "The Toad King"
+  },
+  "levels": [
+    {
+      "name": "Reedwake",
+      "subtitle": "Land I  —  the reed marsh at dusk"
+    },
+    {
+      "name": "Drowned Grove",
+      "subtitle": "Land II  —  where the willows stand in water"
+    },
+    {
+      "name": "Glowing Hollows",
+      "subtitle": "Land III  —  the caves that never see the sun"
+    },
+    {
+      "name": "Sunken Temple",
+      "subtitle": "Land IV  —  the cult's old house of worship"
+    },
+    {
+      "name": "Throne of Koax",
+      "subtitle": "Land V  —  under the blood moon"
+    }
+  ],
+  "memories": [
+    "A village of stilt-houses by the marsh. Children laughing. Your name is Iko — and you were the hunter who kept the frogs away.",
+    "Mira, your little sister, handing you this staff on the day you became a hunter. 'Come home before the moon,' she said.",
+    "The night the cult came. Lanterns burning, frogs everywhere, and Mira carried off into the dark. You ran after them alone.",
+    "The temple. A ritual circle, a hundred croaking voices, and the Toad King's hand on your forehead. Then — nothing. He took your past so you could never warn anyone.",
+    "Everything. Mira is safe in the village; you hid her before you followed them. And under the marsh, something the Toad King was only the servant of..."
+  ],
+  "hints": {
+    "1": [
+      [
+        2,
+        "A / D to move  ·  Space to jump  ·  E to talk to the old man"
+      ],
+      [
+        13,
+        "Hold Space for a higher jump, tap it for a short hop"
+      ],
+      [
+        22,
+        "J: staff sweep. Press again to chain a second sweep"
+      ],
+      [
+        29,
+        "Jump across the platforms. You can't swim, and deep water hurts"
+      ],
+      [
+        44,
+        "Shrines are checkpoints: they save the game and restore health"
+      ],
+      [
+        49,
+        "W + J: LAUNCHER. Knock a frog into the air, press Space to follow it up"
+      ],
+      [
+        56,
+        "In the air: J J J keeps you floating · S + J (or L) DIVES down"
+      ],
+      [
+        61,
+        "The ledge is too high. Push the crate against it and climb"
+      ],
+      [
+        72,
+        "Tap K right before a hit to PARRY: the enemy is stunned and takes extra damage"
+      ],
+      [
+        86,
+        "Dodge (Shift) just as a hit lands for a PERFECT DODGE: time slows down"
+      ],
+      [
+        101,
+        "Slide down a wall and press Space to wall-jump. Climb the shaft!"
+      ],
+      [
+        115,
+        "A locked gate. The key was on top of the cliff"
+      ],
+      [
+        128,
+        "Fighting fills the gold SPIRIT bar. When it's full, press U for the MOON BREAKER"
+      ],
+      [
+        131,
+        "A brute. Light hits don't stagger it. SMASH it, parry it, or dodge its charge"
+      ],
+      [
+        142,
+        "Your memory is up there: the glowing eye"
+      ]
+    ],
+    "2": [
+      [
+        4,
+        "Cultists throw daggers. Swing at a dagger to knock it back at them"
+      ],
+      [
+        18,
+        "Jump from island to island"
+      ],
+      [
+        64,
+        "Thorns hurt. Jump over them"
+      ],
+      [
+        78,
+        "Climb the platforms. Hold S and press Space to drop down through wood"
+      ],
+      [
+        114,
+        "The gate needs a key — look high on the left side of the climb"
+      ],
+      [
+        156,
+        "Another brute. Stamina is your life in a fight — don't empty it"
+      ]
+    ],
+    "3": [
+      [
+        18,
+        "Thorns line the pit. Stay on the platforms"
+      ],
+      [
+        56,
+        "A wall-jump shaft — the key waits above"
+      ],
+      [
+        108,
+        "The gate needs the key from the top of the cliff"
+      ],
+      [
+        126,
+        "Block (K) stops hits from the front, but drains stamina"
+      ]
+    ],
+    "4": [
+      [
+        36,
+        "Push the crate to reach the terrace"
+      ],
+      [
+        50,
+        "Jump up through the wooden platform for the first key"
+      ],
+      [
+        82,
+        "The first gate"
+      ],
+      [
+        108,
+        "The second key is above the shaft"
+      ],
+      [
+        126,
+        "A trench of thorns"
+      ],
+      [
+        142,
+        "The second gate"
+      ]
+    ],
+    "5": [
+      [
+        20,
+        "The last of the cult stand between you and the throne"
+      ],
+      [
+        60,
+        "Light the shrine. Whatever waits ahead is big"
+      ]
+    ]
+  },
+  "level_1_intro": [
+    [
+      "iko",
+      "...Water. Reeds. A staff in my hand."
+    ],
+    [
+      "iko",
+      "Where am I? Who... am I?"
+    ],
+    [
+      "iko",
+      "There's someone standing over there. Maybe he knows."
+    ]
+  ],
+  "level_1_hermit": [
+    [
+      "koax",
+      "Hah! The marsh spat you back out. Few walk away from the cult's ritual with their legs, never mind their mind."
+    ],
+    [
+      "iko",
+      "You know me, old man?"
+    ],
+    [
+      "koax",
+      "I know OF you. Iko, the hunter of the stilt-village. The frogs' worst nightmare. Now look at you, blank as a fresh lily pad."
+    ],
+    [
+      "koax",
+      "The frog cult of the Toad King steals memories. They seal them inside frog eyes and hide them across the five lands."
+    ],
+    [
+      "koax",
+      "Five lands, five eyes. Take them back and you take yourself back. And every memory gives you back a piece of what you could do."
+    ],
+    [
+      "koax",
+      "Your staff remembers even if you don't. Sweep with J. Up and J throws a frog skyward. Chase it, keep it up there."
+    ],
+    [
+      "koax",
+      "The frogs here are not stupid. They feint, they dodge, they wait for you to swing. Watch the red flash, but don't trust it blindly."
+    ],
+    [
+      "koax",
+      "A block at the last instant turns their blow aside: a PARRY. A roll at the last instant and the world slows for you."
+    ],
+    [
+      "koax",
+      "Fight well and your spirit gathers. When it's full, the MOON BREAKER (U) will flatten everything around you."
+    ],
+    [
+      "koax",
+      "And the shrines: touch them. They remember where you stood, should the marsh swallow you."
+    ],
+    [
+      "koax",
+      "Brekekekex koax koax... go on. I'll find you again further on."
+    ]
+  ],
+  "level_1_memory": [
+    [
+      "iko",
+      "The eye... it's warm. I can see—"
+    ],
+    [
+      "iko",
+      "A village on stilts. Children running on the boardwalks. They're calling my name. Iko."
+    ],
+    [
+      "iko",
+      "I was a hunter. I protected them. From these frogs."
+    ]
+  ],
+  "level_2_intro": [
+    [
+      "iko",
+      "The water is higher here. Trees standing in it like they're waiting for something."
+    ]
+  ],
+  "level_2_hermit": [
+    [
+      "koax",
+      "Ahh, the Drowned Grove. The cult flooded it to keep people out. Frogs don't mind wet feet."
+    ],
+    [
+      "iko",
+      "Why do they want my memories, Koax?"
+    ],
+    [
+      "koax",
+      "Hmm. Not yours alone. Everyone who saw too much. You saw the most of all, I think."
+    ],
+    [
+      "koax",
+      "The cliff ahead is tall. Climb the platforms — and if you need to get down, hold Down and jump to drop through the wood."
+    ],
+    [
+      "koax",
+      "The gate on the far side is locked. The key? Hidden high, on the left of the climb. The cult are lazy about hiding things."
+    ]
+  ],
+  "level_2_memory": [
+    [
+      "iko",
+      "A girl. Smaller than me, with a crooked smile. She's giving me this staff."
+    ],
+    [
+      "iko",
+      "'Come home before the moon,' she says. Mira. My sister's name is Mira."
+    ],
+    [
+      "iko",
+      "...I didn't come home, did I."
+    ]
+  ],
+  "level_3_intro": [
+    [
+      "iko",
+      "It's dark. Only the fungus glows. Something is croaking in the deep."
+    ]
+  ],
+  "level_3_hermit": [
+    [
+      "koax",
+      "Down here? You really don't value your skin, hunter. Neither did you before, mind."
+    ],
+    [
+      "koax",
+      "The Hollows are the cult's road to their temple. Thorns in the pits, cultists in the shadows."
+    ],
+    [
+      "koax",
+      "Watch their blades — they flash red before they swing. Strike first, or roll through them."
+    ],
+    [
+      "iko",
+      "Koax... was I alone when they took me?"
+    ],
+    [
+      "koax",
+      "Find the eye. It will tell you better than an old man can."
+    ]
+  ],
+  "level_3_memory": [
+    [
+      "iko",
+      "Fire. The village is burning. Frogs in the lantern light, hundreds of them."
+    ],
+    [
+      "iko",
+      "They're dragging Mira toward the hollows. I'm running after them. Alone."
+    ],
+    [
+      "iko",
+      "I have to remember the rest. I have to know if she's alive."
+    ]
+  ],
+  "level_4_intro": [
+    [
+      "iko",
+      "Stone steps under the water. A temple, half sunk in the marsh."
+    ]
+  ],
+  "level_4_hermit": [
+    [
+      "koax",
+      "The Sunken Temple. Once the frogs prayed for rain here. Now they pray to something else."
+    ],
+    [
+      "koax",
+      "Two gates, two keys. And brutes — the cult's muscle. Use your heavy smash, let them swing into nothing."
+    ],
+    [
+      "koax",
+      "This is where it happened to you, Iko. The ritual. Are you ready to see it?"
+    ],
+    [
+      "iko",
+      "No. But I'm going anyway."
+    ]
+  ],
+  "level_4_memory": [
+    [
+      "iko",
+      "A circle of torches. A hundred voices: brekekekex, koax, koax."
+    ],
+    [
+      "iko",
+      "The Toad King's hand on my forehead, cold and wet. 'Forget,' he says. 'Forget what sleeps below.'"
+    ],
+    [
+      "iko",
+      "What sleeps below? What was he so afraid I would tell?"
+    ]
+  ],
+  "level_5_intro": [
+    [
+      "iko",
+      "The moon is red. The whole marsh is croaking in one voice."
+    ]
+  ],
+  "level_5_hermit": [
+    [
+      "koax",
+      "Here we are. The throne of the cult. The Toad King himself sits at the end of this path."
+    ],
+    [
+      "koax",
+      "He is huge, Iko. He slams the ground and calls his frogs to him. Get up on the high ledges when he jumps."
+    ],
+    [
+      "koax",
+      "Watch for the red flash. Dodge. Then smash. Again and again."
+    ],
+    [
+      "koax",
+      "The last eye is in him. Your last memory. Go and take it back."
+    ]
+  ],
+  "level_5_boss": [
+    [
+      "king",
+      "BREKEKEKEX. The little hunter crawls back to me."
+    ],
+    [
+      "king",
+      "I took your past as a mercy, boy. Some things are better not remembered."
+    ],
+    [
+      "iko",
+      "Give it back."
+    ],
+    [
+      "king",
+      "Then come and take it. KOAX. KOAX."
+    ]
+  ],
+  "level_5_memory": [
+    [
+      "iko",
+      "It's all coming back."
+    ],
+    [
+      "iko",
+      "I hid Mira in the old well before I followed them. She's safe. She's been waiting for me."
+    ],
+    [
+      "iko",
+      "And the ritual... it wasn't for the Toad King. He was only a servant."
+    ],
+    [
+      "koax",
+      "...So now you know. I had hoped you would remember slower."
+    ]
+  ],
+  "ending": [
+    "The Toad King falls, and the croaking across the marsh stops for the first time in years.",
+    "Iko remembers everything: his name, his village, his sister waiting by the well.",
+    "He walks home through the reeds as the red moon fades to white.",
+    "But far beneath the marsh, in water no lantern has ever reached...",
+    "...something vast opens its eyes."
+  ],
+  "powers": {
+    "1": [
+      "NEW POWER: STAFF VAULT",
+      "Press Space again in mid-air to vault off your staff (double jump)"
+    ],
+    "2": [
+      "NEW POWER: AIR DASH",
+      "Press Shift in mid-air to dash. It cuts through anything you pass"
+    ],
+    "3": [
+      "NEW POWER: SPIRIT WAVE",
+      "Your heavy smash (L) now sends a shockwave racing along the ground"
+    ],
+    "4": [
+      "NEW POWER: KOAX'S BLESSING",
+      "Your spirit meter fills 50% faster"
+    ]
+  }
+}

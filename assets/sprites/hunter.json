@@ -1,0 +1,24 @@
+{
+ "cell": [128, 100],
+ "foot": [64, 86],
+ "animations": [
+  {"name": "idle", "row": 0, "frames": 4, "fps": 5.0, "loop": true},
+  {"name": "run", "row": 1, "frames": 6, "fps": 12.0, "loop": true},
+  {"name": "jump", "row": 2, "frames": 2, "fps": 8.0, "loop": true},
+  {"name": "fall", "row": 3, "frames": 2, "fps": 8.0, "loop": true},
+  {"name": "attack1", "row": 4, "frames": 5, "fps": 16.0, "loop": false},
+  {"name": "attack2", "row": 5, "frames": 5, "fps": 16.0, "loop": false},
+  {"name": "heavy", "row": 6, "frames": 6, "fps": 14.0, "loop": false},
+  {"name": "air", "row": 7, "frames": 4, "fps": 18.0, "loop": true},
+  {"name": "dodge", "row": 8, "frames": 5, "fps": 14.0, "loop": false},
+  {"name": "block", "row": 9, "frames": 2, "fps": 6.0, "loop": true},
+  {"name": "hurt", "row": 10, "frames": 2, "fps": 8.0, "loop": false},
+  {"name": "death", "row": 11, "frames": 4, "fps": 7.0, "loop": false},
+  {"name": "launch", "row": 12, "frames": 5, "fps": 16.0, "loop": false},
+  {"name": "dive", "row": 13, "frames": 2, "fps": 12.0, "loop": true},
+  {"name": "airdash", "row": 14, "frames": 2, "fps": 14.0, "loop": true},
+  {"name": "vault", "row": 15, "frames": 3, "fps": 14.0, "loop": false},
+  {"name": "parry", "row": 16, "frames": 3, "fps": 18.0, "loop": false},
+  {"name": "special", "row": 17, "frames": 4, "fps": 16.0, "loop": true}
+ ]
+}

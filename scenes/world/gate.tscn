@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/world/gate.gd" id="1_script"]
+
+[sub_resource type="BoxShape3D" id="block"]
+size = Vector3(1, 3, 3.8)
+
+[sub_resource type="BoxShape3D" id="sense"]
+size = Vector3(3.2, 3, 3.8)
+
+[node name="Gate" type="StaticBody3D"]
+collision_mask = 0
+script = ExtResource("1_script")
+
+[node name="Shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -0.5)
+shape = SubResource("block")
+
+[node name="Sense" type="Area3D" parent="."]
+collision_layer = 0
+collision_mask = 2
+monitorable = false
+
+[node name="Shape" type="CollisionShape3D" parent="Sense"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -0.5)
+shape = SubResource("sense")

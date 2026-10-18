@@ -1,0 +1,30 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/actors/brute.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/actors/sheet_sprite.gd" id="2_sheet"]
+
+[sub_resource type="CapsuleShape3D" id="body"]
+radius = 0.55
+height = 2.1
+
+[node name="Brute" type="CharacterBody3D"]
+collision_layer = 8
+collision_mask = 37
+script = ExtResource("1_script")
+max_hp = 10
+move_speed = 2.2
+aggro_range = 12.0
+damage = 2
+orb_drop = 5
+knock_resist = 0.7
+juggle_resist = 0.5
+feint_chance = 0.15
+hurt_sound = "enemy_hurt"
+
+[node name="Shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.05, 0)
+shape = SubResource("body")
+
+[node name="Sprite" type="AnimatedSprite3D" parent="."]
+script = ExtResource("2_sheet")
+sheet = "res://assets/sprites/brute"

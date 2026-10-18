@@ -1,0 +1,42 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/world/crate.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/textures/planks.png" id="2_planks"]
+
+[sub_resource type="PhysicsMaterial" id="wood"]
+friction = 0.35
+
+[sub_resource type="BoxShape3D" id="box"]
+size = Vector3(1, 1, 1.2)
+
+[sub_resource type="StandardMaterial3D" id="mat"]
+albedo_texture = ExtResource("2_planks")
+roughness = 0.9
+uv1_scale = Vector3(0.52, 0.52, 0.52)
+uv1_triplanar = true
+texture_filter = 0
+
+[sub_resource type="BoxMesh" id="mesh"]
+material = SubResource("mat")
+size = Vector3(1, 1, 1.2)
+
+[node name="Crate" type="RigidBody3D"]
+collision_layer = 32
+collision_mask = 37
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+mass = 2.0
+physics_material_override = SubResource("wood")
+gravity_scale = 2.5
+linear_damp = 0.6
+script = ExtResource("1_script")
+
+[node name="Shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("box")
+
+[node name="Mesh" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+mesh = SubResource("mesh")

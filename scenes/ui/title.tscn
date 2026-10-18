@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ctltmf5binjd6"]
+
+[ext_resource type="Script" uid="uid://c2sput7gcx67p" path="res://scripts/ui/title.gd" id="1_title"]
+[ext_resource type="Script" uid="uid://rf5uv06763bc" path="res://scripts/world/level_builder.gd" id="2_level"]
+
+[node name="Title" type="Node3D" unique_id=746059891]
+script = ExtResource("1_title")
+
+[node name="Level" type="Node3D" parent="." unique_id=1805563144]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.668705, -9.541388, -13.731827)
+script = ExtResource("2_level")
+spawn_entities = false
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1273750449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 8.5, 11)
+current = true
+fov = 40.0

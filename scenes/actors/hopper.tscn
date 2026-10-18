@@ -1,0 +1,26 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/actors/hopper.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/actors/sheet_sprite.gd" id="2_sheet"]
+
+[sub_resource type="BoxShape3D" id="body"]
+size = Vector3(1.1, 0.85, 0.8)
+
+[node name="Hopper" type="CharacterBody3D"]
+collision_layer = 8
+collision_mask = 37
+script = ExtResource("1_script")
+max_hp = 3
+move_speed = 3.0
+aggro_range = 10.0
+orb_drop = 1
+evade_chance = 0.3
+feint_chance = 0.1
+
+[node name="Shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.425, 0)
+shape = SubResource("body")
+
+[node name="Sprite" type="AnimatedSprite3D" parent="."]
+script = ExtResource("2_sheet")
+sheet = "res://assets/sprites/hopper"

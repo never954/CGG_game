@@ -1,0 +1,33 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/actors/toad_king.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/actors/sheet_sprite.gd" id="2_sheet"]
+
+[sub_resource type="CapsuleShape3D" id="body"]
+radius = 0.95
+height = 3.8
+
+[node name="ToadKing" type="CharacterBody3D"]
+collision_layer = 8
+collision_mask = 37
+script = ExtResource("1_script")
+max_hp = 45
+move_speed = 2.4
+aggro_range = 18.0
+damage = 2
+orb_drop = 12
+knock_resist = 0.85
+juggle_resist = 1.0
+slam_interval = 4.0
+charge_interval = 5.0
+punch_windup = 0.55
+reach = 1.7
+
+[node name="Shape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.9, 0)
+shape = SubResource("body")
+
+[node name="Sprite" type="AnimatedSprite3D" parent="."]
+script = ExtResource("2_sheet")
+sheet = "res://assets/sprites/brute"
+size_scale = 1.8

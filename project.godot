@@ -1,0 +1,53 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="BREKEKEKEX - The Hunter Who Forgot"
+config/description="An HD-2D swamp action-platformer. A staff-wielding hunter wakes with no memory; the frog cult keeps his past locked in frog eyes."
+run/main_scene="res://scenes/ui/title.tscn"
+config/features=PackedStringArray("4.7", "Forward Plus")
+
+[autoload]
+
+Controls="*res://scripts/autoload/controls.gd"
+GameState="*res://scripts/autoload/game_state.gd"
+Audio="*res://scripts/autoload/audio.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[importer_defaults]
+
+texture={
+"compress/mode": 0,
+"detect_3d/compress_to": 0,
+"mipmaps/generate": true
+}
+
+[layer_names]
+
+3d_physics/layer_1="world"
+3d_physics/layer_2="player"
+3d_physics/layer_3="platform"
+3d_physics/layer_4="enemy"
+3d_physics/layer_5="pickup"
+3d_physics/layer_6="crate"
+3d_physics/layer_7="hazard"
+
+[rendering]
+
+rendering_device/driver.macos="vulkan"
+anti_aliasing/quality/msaa_3d=1
+environment/defaults/default_clear_color=Color(0.08, 0.08, 0.12, 1)

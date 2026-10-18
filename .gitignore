@@ -1,0 +1,4 @@
+.godot/
+export/
+tools/assetgen
+.DS_Store
